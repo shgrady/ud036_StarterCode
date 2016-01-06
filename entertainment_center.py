@@ -6,7 +6,7 @@
 import media
 import fresh_tomatoes
 
-fifty_shades_of_gray = media.Movie("Fifty Shades of Gray",                        
+fifty_shades_of_grey = media.Movie("Fifty Shades of Grey",                        
   "When college senior Anastasia Steele (Dakota Johnson) steps in for her sick roommate to interview prominent businessman Christian Grey (Jamie Dornan) for their campus paper, little does she realize the path her life will take. Christian, as enigmatic as he is rich and powerful, finds himself strangely drawn to Ana, and she to him. Though sexually inexperienced, Ana plunges headlong into an affair -- and learns that Christian's true sexual proclivities push the boundaries of pain and pleasure.",
   "https://en.wikipedia.org/wiki/Fifty_Shades_of_Grey_(film)#/media/File:Fifty-Gray-poster.jpg",                        
   "https://www.youtube.com/watch?v=SfZWFDs0LxA")    
@@ -21,6 +21,5 @@ gattaca = media.Movie("GATTACA",
   "https://en.wikipedia.org/wiki/Gattaca#/media/File:Gataca_Movie_Poster_B.jpg",
   "https://www.youtube.com/watch?v=hWjlUj7Czlk")#print(up.storyline)
 
-#fifty_shades_of_gray.show_trailer()
 movies = [fifty_shades_of_gray, up, gattaca]
 fresh_tomatoes.open_movies_page(movies)
