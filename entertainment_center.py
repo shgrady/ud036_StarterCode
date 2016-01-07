@@ -21,5 +21,5 @@ gattaca = media.Movie("GATTACA",
   "https://en.wikipedia.org/wiki/Gattaca#/media/File:Gataca_Movie_Poster_B.jpg",
   "https://www.youtube.com/watch?v=hWjlUj7Czlk")#print(up.storyline)
 
-movies = [fifty_shades_of_gray, up, gattaca]
+movies = [fifty_shades_of_grey, up, gattaca]
 fresh_tomatoes.open_movies_page(movies)
